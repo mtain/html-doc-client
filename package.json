@@ -1,0 +1,42 @@
+{
+  "name": "html-doc",
+  "version": "0.1.0",
+  "description": "Local HTML document library",
+  "main": "out/main/index.js",
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "electron-vite build",
+    "preview": "electron-vite preview",
+    "dist": "electron-vite build && electron-builder --mac"
+  },
+  "author": "mtain",
+  "build": {
+    "appId": "com.htmldoc.app",
+    "productName": "HTML 文档库",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "out/**",
+      "build/icon.png"
+    ],
+    "mac": {
+      "category": "public.app-category.productivity",
+      "icon": "build/icon.png",
+      "target": [
+        "dir"
+      ]
+    }
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.9",
+    "electron": "^33.0.0",
+    "electron-builder": "^26.15.3",
+    "electron-vite": "^2.3.0",
+    "vite": "^5.4.0",
+    "vue": "^3.5.0"
+  },
+  "dependencies": {
+    "chokidar": "^4.0.0"
+  }
+}
