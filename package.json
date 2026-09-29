@@ -22,11 +22,12 @@
     ],
     "mac": {
       "category": "public.app-category.productivity",
-      "icon": "build/icon.png",
+      "icon": "build/icon.icns",
       "target": [
-        "dir"
+        "zip"
       ]
-    }
+    },
+    "artifactName": "html-doc-client-${version}-${arch}-mac.${ext}"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.9",

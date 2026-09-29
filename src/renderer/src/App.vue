@@ -71,6 +71,7 @@ async function refreshTree() {
   if (!vault.value) return
   const data = await window.api.loadVault(vault.value.root)
   tree.value = data.tree
+  refreshGit()
 }
 
 function toggleDir(node) {
