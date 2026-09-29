@@ -4,11 +4,11 @@ AI 时代，我们产出了大量 HTML 格式的文档。Markdown 有 Obsidian�
 
 ## 截图
 
+![文件树与空状态](docs/screenshot3.png)
+
 ![浅色主题预览](docs/screenshot1.png)
 
 ![深色文档多标签预览](docs/screenshot2.png)
-
-![文件树与空状态](docs/screenshot3.png)
 
 ## 功能
 
